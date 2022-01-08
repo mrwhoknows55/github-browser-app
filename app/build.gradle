@@ -60,6 +60,7 @@ dependencies {
 
     def roomVersion = "2.4.0"
     implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-ktx:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
 
     def hiltVersion = "2.40.5"
@@ -69,6 +70,10 @@ dependencies {
     def coilVersion = "1.4.0"
     implementation "io.coil-kt:coil:$coilVersion"
 
+    def timberVersion = "4.7.1"
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

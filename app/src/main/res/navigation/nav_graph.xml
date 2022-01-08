@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/repoListFragment"
-        android:name="com.mrwhoknows.gh_browser.ui.RepoListFragment"
+        android:name="com.mrwhoknows.gh_browser.ui.list_page.RepoListFragment"
         android:label="fragment_repo_list"
         tools:layout="@layout/fragment_repo_list" />
 </navigation>

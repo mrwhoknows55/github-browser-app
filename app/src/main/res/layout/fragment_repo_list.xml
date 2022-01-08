@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.RepoListFragment">
+    tools:context=".ui.list_page.RepoListFragment">
 
     <TextView
         style="@style/TextAppearance.MaterialComponents.Headline2"
