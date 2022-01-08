@@ -18,10 +18,6 @@ class RepositoryListViewModel
     private val repositoryDao: RepositoryDao
 ) : ViewModel() {
 
-    init {
-        insertFakeRepo()
-    }
-
     private val _repositories: MutableLiveData<List<Repository>> = MutableLiveData()
     val repositories: LiveData<List<Repository>> = _repositories
 

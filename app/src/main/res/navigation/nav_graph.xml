@@ -8,6 +8,19 @@
     <fragment
         android:id="@+id/repoListFragment"
         android:name="com.mrwhoknows.gh_browser.ui.list_page.RepoListFragment"
-        android:label="fragment_repo_list"
-        tools:layout="@layout/fragment_repo_list" />
+        android:label="Github Browser"
+        tools:layout="@layout/fragment_repo_list">
+        <action
+            android:id="@+id/action_repoListFragment_to_addRepoFragment"
+            app:destination="@id/addRepoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/repoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addRepoFragment"
+        android:name="com.mrwhoknows.gh_browser.ui.add_page.AddRepoFragment"
+        android:label="@string/add_repository" />
 </navigation>

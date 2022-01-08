@@ -3,4 +3,7 @@
     <string name="track_your_favourite_repository">Track your favourite repository</string>
     <string name="add_now">Add now</string>
     <string name="share_button">Share Button</string>
+    <string name="add_repository">Add Repository</string>
+    <string name="owner_organization">Owner/Organization</string>
+    <string name="repo_name">Repo Name</string>
 </resources>
