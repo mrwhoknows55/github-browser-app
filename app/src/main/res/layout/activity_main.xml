@@ -16,6 +16,7 @@
             style="@style/Widget.MaterialComponents.Toolbar.Primary"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:layout_scrollFlags="enterAlways|scroll|snap"
             app:title="@string/app_name" />
     </com.google.android.material.appbar.AppBarLayout>
 
